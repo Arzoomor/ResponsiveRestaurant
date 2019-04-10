@@ -1,0 +1,653 @@
+* { box-sizing: border-box; }
+
+body {
+           
+    background-image: url(../images/bg.jpg);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+	font-weight: 400;
+    font-size: 17px;
+    font-family: century gothic ;
+    line-height: 30px;
+   
+        }
+		
+.bg-img{max-width:100%}		
+		
+table
+{
+    width: 100%;
+}
+nav{
+    text-align: center;
+    font-family: Arial;
+     font-size: 1.5em;
+     font-weight: bold;
+    color: black;
+    
+}
+
+label{
+	float:left;}
+main
+{
+    margin-bottom: 50px;
+}
+#wrapper
+{
+    width: 1024px;
+	margin:0 auto;
+    
+}
+
+h2 {
+    text-align: center;
+	color: #f3a412;
+	padding-top: 30px;
+    
+}
+
+header
+{
+    height: 40px;
+    background:#a01a1a;
+	
+}
+.logo{
+  background-image: url(../images/logo.png);
+  height: 100px;
+  width: 150px;
+  float: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+}
+.email
+{
+	color:white;
+	float:left;
+	text-decoration:none;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+      font-family: century gothic ;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3a3a3a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+     border-bottom: 1px solid #616161;
+}
+
+.dropdown-content a:hover {
+    background-color: #3e8e41;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+   
+}
+
+
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+    
+}
+
+.hometext{color: #fff;
+    font-size: 16px;
+    text-align: justify;
+	float:left;
+	margin-left:15%;
+	width:50%;}
+	
+
+.text{
+	color: #fff;
+    font-size: 12px;
+    text-align: justify;
+	float:right;
+	
+	}	
+.icon
+{
+	color:white;
+	float: right;
+}
+.topnav
+{
+	display: flex;
+	flex-direction:row;
+	float:right;
+}
+.topnav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+	display: block;
+	width: 100%;
+	font-size: 14px;
+    
+
+}
+
+footer{
+	
+	background:#a01a1a;
+	bottom:0;
+	position:fixed;
+	color:#fff;
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+	font-size:12px;
+
+	
+	}
+
+h1{color: #fff;  font-family: century gothic ;}
+
+.content{margin-top: 10%;}
+	
+.head{height: 100px; margin-top: 30px;}
+
+	.topbar{
+	max-width: 1024px;
+	margin:0 auto;
+	font-size:12px;
+	padding:5px;
+		
+		}
+		
+    header, nav, main, footer
+{
+    display:block;
+}
+
+@media only screen and (max-width: 1024px) 
+{
+
+        body
+    {
+        margin: 0;
+       
+    }
+        
+      
+    #wrapper{
+        min-width: 0;
+        width: auto;
+        margin: 0;
+	}
+    footer{
+        margin: 0;
+    }
+	.topnav{
+		float: none;
+        width: auto;
+	}
+		
+}
+@media only screen and (max-width: 768px) 
+{
+		 .topnav{
+			 flex-direction: column;
+}
+body
+{
+	width: auto;
+    height: auto;
+    background-color: black;
+}
+		
+#mobile { display: inline; }
+ #desktop { display: none; }		
+		
+    table
+{
+    border: 2px solid #191970;
+    border-collapse: collapse;
+}
+td,th{
+    
+    padding: 0.5em;
+}
+#wrapper
+		{
+        min-width: 0;
+        width: auto;
+        margin: 0;
+    }
+	
+	 .topnav a
+    {
+        display: block;
+        padding: 0.2em;creat
+        width: auto;
+        border-color:  #FEF6C2;
+    }
+
+		.topnav
+		{
+			margin: 0;
+		}
+		
+		
+    .content{text-align: center; padding-left: 0}
+    .text{
+	text-align: center;
+        margin: 0 auto;
+        width: 80%;
+	
+	}	
+}
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+#creation{
+    font-size: 0.8em;
+    font-family: century gothic;
+    text-align: inherit;
+}
+#creation2
+{
+    font-size: 0.8em;
+    font-family: century gothic;
+    text-align: inherit;
+    
+}
+#creation3
+{
+     font-size: 0.8em;
+    font-style: italic;
+    color: salmon;
+    text-align: inherit;
+}
+
+#creation3:hover{color: #000;}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    table-layout: fixed;
+}
+
+ td {
+    text-align: left;
+    padding: 8px;
+}
+
+
+
+#customer th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+	    font-weight: normal;
+    font-size: 14px;
+
+}
+th, td {
+    border-bottom: 1px solid #6f6862;
+    background:#24242B;
+    color: white;
+} 
+td:hover{
+    background:#eee;
+    color: #000;
+}
+@media only screen and (max-width: 1024px){
+    body {
+        margin: 0; padding: 0;
+    }
+    nav li { margin-right: }
+}
+@media only screen and (max-width: 760px),(min-device-width: 768px) and (max-device-width: 1024px)  {
+    nav li {
+        margin-right: 10px;
+    }
+    #creation{
+        text-align: right;
+    }
+    #creation2{
+        text-align: right;
+    }
+    #creation3{
+        text-align: right;
+    }
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+   
+    td {border: none; position: relative; padding-left: 50%; }
+    td:before {position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    #creation:nth-of-type(1):before { content: "Dishes"; text-align: left;}
+    #creation2:nth-of-type(2):before { content: "Price"; text-align: left;}
+    #creation3:nth-of-type(3):before { content: "Description"; text-align: left; }
+    
+   
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+   border-radius: 5px;
+    background-color: #000;
+    opacity: 0.8;
+    color: #eee;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+
+}
+@media screen and (max-width: 380px) {
+    .email{
+      display: none;
+    }
+    }
+}
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+h1 {
+  text-align: left;
+  margin-left:15%;  
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+.topnav{
+  transition: all .3s ease;
+}
+.social{
+  float: right;
+  margin-top: 2px;
+}
+.social li{
+  list-style-type: none;
+  float: left;
+  padding: 0 15px;
+
+}
+
+.social li i{
+  font-size: 18px;
+  color: #fff;
+}
+.navbar-toggle{
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    background: transparent;
+    display: none;
+}
+.navbar-toggle .icon-bar{
+    width: 30px;
+    height: 5px;
+    display: block;
+    background: #fff;
+
+}
+.navbar-toggle .icon-bar:nth-child(2){
+  margin: 5px 0px;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+@media only screen and (max-width: 768px){
+  .topnav{
+    background: #a01a1a;
+    padding: 40px 0px;
+    display: none;
+    margin-top: 65px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;  
+
+  }
+  .topnav a{
+    display: block;
+  }
+  .topnav a:hover{
+    background: #1c1c1c;
+  }
+
+  .navbar-toggle{
+    display: block;
+  }
+  .text{
+    float: none;
+  }
+  
+  h1 {
+  text-align: center;
+  margin-left:0px;
+ 
+}
+
+
+.hometext{color: #fff;
+    font-size: 16px;
+    text-align: justify;
+	float:left;
+	    width: 100%;
+		margin-left:0px;
+	}
+
+}
+.clearfix{
+  content: "";
+  clear: both;
+}

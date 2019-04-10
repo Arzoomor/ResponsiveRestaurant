@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+      <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+      <title>
+         New Delhi Restaurant
+      </title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/final.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+   </head>
+   <body>
+      <header>
+         <div class="topbar">
+         <a class="email" href="mailto:info@newdelhirestaurant.ca">Email:info@newdelhirestaurant.ca</a>
+           
+            <ul class="social">
+              <li><a href="https://www.facebook.com/newdelhirestaurant.ca"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.google.ca/maps/place/New+Delhi+Restaurant/@43.4182183,-80.5001743,15z/data=!4m5!3m4!1s0x0:0xe2916dd306de72b0!8m2!3d43.4182183!4d-80.5001743"><i class="fa fa-google"></i></a></li>
+              <li><a href="https://twitter.com/NewDelhiRestau1"><i class="fa fa-twitter"></i></a></li>
+            </ul> 
+         </div>
+
+      </header>
+      <div id="wrapper">
+         <div class="head">
+            <div class="logo">
+            </div>
+             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span> 
+               </button>
+            <nav class="topnav">
+              
+
+
+               <a href="index.html">Home</a>
+               <div class="dropdown">
+                  <a href="#" >Menu</a>
+                  <div class="dropdown-content">
+                     <a href="appetizers.html">Appetizers</a>
+                     <a href="drinks.html">Drinks</a>
+                     <a href="mains.html">Mains</a>
+                     <a href="rice.html">Rice/Briyani</a>
+                     <a href="breads.html">Breads</a>
+                  </div>
+               </div>
+               <a href="about.html">About</a>
+               <a href="gallery.html">Gallery</a>
+               <a href="reservation.html">Reservation</a>
+               <a href="contact.html">Contact</a>
+            </nav>
+         </div>
+      </div>
+      <div class="clearfix"></div>
+      <main>
+            <div class="container">
+               <div style="text-align:center">
+                  <h2>Contact Us</h2>
+                  <p>leave us a message:</p>
+               </div>
+               <div class="row">
+                  <div class="column">
+                     <form action="contact.html">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                           <option value="australia">Australia</option>
+                           <option value="canada">Canada</option>
+                           <option value="usa">USA</option>
+                        </select>
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                     </form>
+                  </div>
+                  <div class="column">
+                     <div id="map" style="width:100%;height:200px">
+                        <div>Address: Unit 9 - 720 Westmount Road E, 
+                           Kitchener ON N2E 2M6
+                        </div>
+                        <div>Email: info@newdelhirestaurant.ca</div>
+                        <div>Phone: 519 . 208 . 8666</div>
+                     </div>
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2898.0113501059213!2d-80.50244298450986!3d43.41858957913007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf5a09772bcc9%3A0x5f1829a09ba6c17e!2s720+Westmount+Rd+E+%239%2C+Kitchener%2C+ON+N2E+1J2!5e0!3m2!1sen!2sca!4v1524462389523" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  </div>
+               </div>
+            </div>
+         </main>
+      <footer>
+         Copyright &copy; New Delhi Restaurant
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script>
+         $(".navbar-toggle").click(function(){
+            $(".topnav").toggle();
+         });         
+      </script>
+   </body>
+</html>
